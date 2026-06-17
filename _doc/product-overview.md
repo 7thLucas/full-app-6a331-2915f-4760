@@ -64,8 +64,8 @@ The character used in this product is owned entirely by the product/user.
 ---
 
 ## Tone & Brand
-Bold, creative, expressive. The energy of a music video crossed with a skate film.
-Dynamic and clean. Designed to be shareable.
+Crazy. Bold, wild, expressive — the north star feeling confirmed by the creator.
+The energy of a music video crossed with a skate film. Dynamic and designed to be shareable.
 
 *(Visual brand — colors, logo, typeface — TBD pending Designer agent pass.)*
 
