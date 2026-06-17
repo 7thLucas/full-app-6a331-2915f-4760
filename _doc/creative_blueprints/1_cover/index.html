@@ -1,0 +1,42 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-img-col { width: 50%; height: 100%; }
+.mode-portrait .sl-img-col { width: 100%; height: 45%; }
+.mode-landscape .sl-text-col { width: 50%; }
+.mode-portrait .sl-text-col { flex: 1; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: text column -->
+    <div class="sl-text-col flex flex-col justify-between p-10">
+      <div>
+        <span class="inline-block bg-violet-100 text-violet-700 text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full mb-6">
+          Music × Motion × 3D
+        </span>
+        <h1 class="text-5xl font-black text-slate-900 leading-tight mb-5">
+          Your music<br/>becomes a<br/><span class="text-violet-700">living world.</span>
+        </h1>
+        <p class="text-lg text-slate-500 leading-relaxed max-w-xs">
+          Upload a video of you playing. Watch a 3D skate universe rise to the beat — terrain, obstacles, and physics all driven live by your sound.
+        </p>
+      </div>
+      <div>
+        <div class="text-2xl font-black text-violet-700 mb-0.5">BeatRide</div>
+        <div class="text-xs text-slate-400 mb-4">Working title — name to be confirmed</div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: image -->
+    <div class="sl-img-col overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=breathtaking%203D%20skateboard%20landscape%20with%20glowing%20violet%20purple%20terrain%20waves%20that%20pulse%20and%20deform%20to%20music%2C%20neon%20cinematic%20lighting%2C%20ultra-wide%20shot%2C%20abstract%20rolling%20hills%2C%20dramatic%20atmosphere"
+        alt="Music-reactive 3D skate world"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
