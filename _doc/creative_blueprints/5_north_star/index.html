@@ -1,0 +1,93 @@
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10 gap-5">
+
+    <!-- Header -->
+    <div class="flex items-start justify-between">
+      <div>
+        <p class="text-xs font-bold tracking-widest text-violet-500 uppercase mb-1">North Star Metric</p>
+        <h2 class="text-3xl font-black text-slate-900">Weekly Sessions Visualized</h2>
+      </div>
+      <span class="bg-amber-100 text-amber-700 text-xs font-bold px-3 py-1.5 rounded-full whitespace-nowrap">
+        Projected impact — based on your inputs
+      </span>
+    </div>
+
+    <!-- Verified operation definition -->
+    <div class="bg-violet-50 border border-violet-100 rounded-xl p-5">
+      <p class="text-xs font-bold text-violet-600 uppercase tracking-wider mb-1">Verified Operation</p>
+      <p class="text-slate-700 text-sm leading-relaxed">
+        <strong>Music Session Visualized</strong> — one complete cycle: user uploads a video or audio file
+        → audio is analyzed → a 3D skate world is generated and rendered for that session.
+        Each completed generation counts as one verified operation.
+        <em class="text-slate-400">(Clicks, logins, and previews are not operations.)</em>
+      </p>
+    </div>
+
+    <!-- WVO formula -->
+    <div class="bg-white border border-slate-200 rounded-xl p-5">
+      <p class="text-xs font-bold text-slate-600 uppercase tracking-wider mb-4">Weekly Verified Operations (WVO) — formula</p>
+      <div class="flex items-center gap-3 flex-wrap">
+
+        <div class="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-center min-w-24">
+          <div class="text-xs text-amber-600 font-semibold mb-1">Assumption — adjust this</div>
+          <div class="text-xl font-black text-slate-900">N users</div>
+          <div class="text-xs text-slate-500">active / week</div>
+        </div>
+
+        <div class="text-slate-400 font-black text-lg">×</div>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-center min-w-24">
+          <div class="text-xs text-amber-600 font-semibold mb-1">Assumption — adjust this</div>
+          <div class="text-xl font-black text-slate-900">S sessions</div>
+          <div class="text-xs text-slate-500">/ user / week</div>
+        </div>
+
+        <div class="text-slate-400 font-black text-lg">=</div>
+
+        <div class="bg-violet-700 rounded-lg px-6 py-3 text-center">
+          <div class="text-xs text-violet-200 font-semibold mb-1">WVO target</div>
+          <div class="text-2xl font-black text-white">N × S</div>
+          <div class="text-xs text-violet-200">sessions / week</div>
+        </div>
+
+      </div>
+      <p class="text-xs text-slate-400 mt-3 italic">
+        Example: 10 active users × 3 sessions each = <strong>30 visualized sessions / week</strong>
+      </p>
+    </div>
+
+    <!-- Value derivation + impact summary -->
+    <div class="flex-1 grid grid-cols-2 gap-4">
+
+      <div class="bg-slate-50 rounded-xl p-5 flex flex-col gap-3">
+        <p class="text-xs font-bold text-slate-600 uppercase tracking-wider">Value per Session</p>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Each completed session delivers a unique, shareable 3D music animation —
+          creative output that would otherwise require hours of manual 3D work or
+          specialist tools.
+        </p>
+        <div class="bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 inline-block">
+          <div class="text-xs text-amber-600 font-semibold">Assumption — adjust this</div>
+          <div class="text-sm font-black text-slate-900">~2 h creative work saved / session</div>
+        </div>
+        <p class="text-xs text-slate-500 italic">
+          Formula: N × S sessions/wk × 2 h saved = total creative hours freed per week
+        </p>
+      </div>
+
+      <div class="bg-slate-900 rounded-xl p-5 flex flex-col justify-between">
+        <p class="text-xs font-bold tracking-widest text-slate-400 uppercase">Impact Summary</p>
+        <div>
+          <div class="text-2xl font-black text-white mb-2">N × S × 2 h saved</div>
+          <div class="text-slate-400 text-sm leading-relaxed">
+            creative hours freed per week through automated 3D music visualization
+          </div>
+        </div>
+        <p class="text-xs text-violet-400 italic mt-2">
+          Fill in your actual N and S above to see your projected weekly impact.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
