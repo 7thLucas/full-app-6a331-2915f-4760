@@ -1,6 +1,6 @@
 # Product Overview
 
-> **Status**: Name and core concept confirmed. Branding pass pending (Designer agent).
+> **Status**: Name, core concept, and branding confirmed.
 
 ---
 
