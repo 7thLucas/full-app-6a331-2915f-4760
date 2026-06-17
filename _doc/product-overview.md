@@ -67,7 +67,10 @@ The character used in this product is owned entirely by the product/user.
 Crazy. Bold, wild, expressive — the north star feeling confirmed by the creator.
 The energy of a music video crossed with a skate film. Dynamic and designed to be shareable.
 
-*(Visual brand — colors, logo, typeface — TBD pending Designer agent pass.)*
+**Visual brand** (confirmed — Designer pass complete):
+- Palette: electric purple / violet, cyan, electric blue on dark backgrounds
+- Logo: neon waveforms + 3D terrain energy + skater silhouette, "FUTURE" wordmark
+- Feel: sound in motion — kinetic, neon, cinematic
 
 ---
 
