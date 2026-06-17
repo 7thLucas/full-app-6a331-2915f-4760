@@ -44,8 +44,9 @@ Your sound is the controller.
 | 2 | **Real-Time Audio Analysis** | Web Audio API beat detection, BPM tracking, and frequency spectrum analysis. |
 | 3 | **Reactive 3D Terrain** | Three.js procedural landscape that deforms, recolors, and populates with obstacles in response to music. |
 | 4 | **Physics-Driven Skater** | Custom skater character whose speed, jump force, gravity, and tricks are governed live by the audio signal. |
-| 5 | **Original Custom Character** | Fully original skater design — no third-party IP. Entirely owned by the product. |
+| 5 | **AXON — Original Custom Character** | Fully original low-poly geometric skater (name: AXON) — no third-party IP. Entirely owned by the product. |
 | 6 | **Share / Export** | Share a link or export the generated animated skate world. |
+| 7 | **Broad Format Support** | Accepts MP3, WAV, OGG, MP4, MOV, WebM — up to 200 MB. Audio extracted automatically from video formats. |
 
 ---
 
