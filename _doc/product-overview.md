@@ -29,9 +29,9 @@ Your sound is the controller.
 ---
 
 ## Users
-- **Primary**: Musicians and music creators who want to express and share their music
-  in a novel, visual form.
-- **Secondary**: Creatives and hobbyists interested in generative 3D art and
+- **Primary**: Future-forward musicians and creators who want to see their sound
+  visualized as a living, physical 3D world.
+- **Secondary**: Creatives and hobbyists drawn to generative 3D art and
   music visualization.
 
 ---
