@@ -10,7 +10,7 @@
 ---
 
 ## What It Is
-BeatRide is a browser-based creative experience. The user uploads a video or audio
+Future is a browser-based creative experience. The user uploads a video or audio
 recording of themselves playing a song. The app extracts the audio, analyzes it in
 real time (beat detection, BPM, frequency spectrum), and generates a reactive 3D
 skateboarding animation:
