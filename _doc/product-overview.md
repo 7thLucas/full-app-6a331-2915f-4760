@@ -1,12 +1,11 @@
 # Product Overview
 
-> **Status**: Early scoping — core concept confirmed. Product name, branding, and target
-> detail are TBD (pending onboarding A1 responses). Update this file as answers arrive.
+> **Status**: Name and core concept confirmed. Branding pass pending (Designer agent).
 
 ---
 
-## Working Title
-**BeatRide** *(provisional — to be confirmed by user during onboarding)*
+## Product Name
+**Future**
 
 ---
 
