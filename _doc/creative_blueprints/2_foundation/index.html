@@ -1,0 +1,61 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-img-col { width: 42%; }
+.mode-portrait .sl-img-col { width: 100%; height: 35%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full p-10 gap-8">
+
+    <!-- Left: problem + solution narrative -->
+    <div class="flex-1 flex flex-col gap-5">
+
+      <!-- Problem -->
+      <div class="flex-1 bg-slate-900 rounded-2xl p-7 flex flex-col justify-between">
+        <span class="text-xs font-bold tracking-widest text-slate-400 uppercase">The Problem</span>
+        <div>
+          <h2 class="text-2xl font-black text-white mb-3">Your music is just sound.</h2>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            You play — but there's no visual world that breathes with it. Generic
+            music visualizers are flat, forgettable, and disconnected from the energy
+            of the performance.
+          </p>
+        </div>
+        <div class="flex gap-2 flex-wrap">
+          <span class="bg-slate-700 text-slate-300 text-xs px-3 py-1 rounded-full">No visual dimension</span>
+          <span class="bg-slate-700 text-slate-300 text-xs px-3 py-1 rounded-full">Static output</span>
+          <span class="bg-slate-700 text-slate-300 text-xs px-3 py-1 rounded-full">Generic players</span>
+        </div>
+      </div>
+
+      <!-- Solution -->
+      <div class="flex-1 bg-violet-700 rounded-2xl p-7 flex flex-col justify-between">
+        <span class="text-xs font-bold tracking-widest text-violet-200 uppercase">The Solution</span>
+        <div>
+          <h2 class="text-2xl font-black text-white mb-3">A 3D world that breathes with your music.</h2>
+          <p class="text-violet-100 text-sm leading-relaxed">
+            Upload your music video. BeatRide analyzes every beat and frequency in
+            real time — then builds a 3D skate universe where terrain, obstacles,
+            and the skater's physics all respond live to your sound.
+          </p>
+        </div>
+        <div class="flex gap-2 flex-wrap">
+          <span class="bg-violet-600 text-white text-xs px-3 py-1 rounded-full">Beat-reactive terrain</span>
+          <span class="bg-violet-600 text-white text-xs px-3 py-1 rounded-full">Live physics</span>
+          <span class="bg-violet-600 text-white text-xs px-3 py-1 rounded-full">Fully shareable</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right: image -->
+    <div class="sl-img-col rounded-2xl overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=audio%20waveform%20on%20left%20dramatically%20transforming%20into%20a%20vivid%203D%20neon%20purple%20skateboard%20mountain%20landscape%20on%20the%20right%2C%20split%20composition%2C%20cinematic%20contrast%2C%20clean%20modern%20design"
+        alt="From flat audio to living 3D world"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
